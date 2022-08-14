@@ -1,0 +1,755 @@
+2022-08-14 18:38:27,130 1 INFO ? odoo: Odoo version 15.0-20220812 
+2022-08-14 18:38:27,131 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2022-08-14 18:38:27,131 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/etc/odoo/addons/15.0', '/mnt/extra-addons'] 
+2022-08-14 18:38:27,131 1 INFO ? odoo: database: odoo@db:5432 
+2022-08-14 18:38:27,346 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-08-14 18:38:27,639 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on b9e5ba85b208:8069 
+2022-08-14 18:38:51,008 1 INFO ? odoo.http: HTTP Configuring static files 
+2022-08-14 18:38:51,017 1 INFO ? odoo.http: Generating nondb routing 
+2022-08-14 18:38:51,035 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET / HTTP/1.1" 303 - 1 0.002 0.024
+2022-08-14 18:38:51,051 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web HTTP/1.1" 303 - 2 0.002 0.011
+2022-08-14 18:38:51,096 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/database/selector HTTP/1.1" 200 - 2 0.002 0.041
+2022-08-14 18:38:51,128 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,139 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,141 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,141 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,142 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,142 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,142 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,148 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,155 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,156 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,159 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,160 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,161 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,161 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,168 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,168 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,168 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,177 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/img/logo2.png HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,250 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2022-08-14 18:38:51,611 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:38:51] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - - - -
+2022-08-14 18:39:19,542 1 INFO None odoo.service.db: Create database `odooAndres`. 
+2022-08-14 18:39:20,078 1 INFO odooAndres odoo.modules.loading: loading 1 modules... 
+2022-08-14 18:39:20,078 1 INFO odooAndres odoo.modules.loading: Loading module base (1/1) 
+2022-08-14 18:39:20,104 1 INFO odooAndres odoo.modules.registry: module base: creating or updating database tables 
+2022-08-14 18:39:20,837 1 INFO odooAndres odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2022-08-14 18:39:20,837 1 INFO odooAndres odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2022-08-14 18:39:20,837 1 INFO odooAndres odoo.models: Storing computed values of ir.module.module.views_by_module 
+2022-08-14 18:39:20,839 1 INFO odooAndres odoo.models: Storing computed values of res.partner.display_name 
+2022-08-14 18:39:20,839 1 INFO odooAndres odoo.models: Storing computed values of res.partner.partner_share 
+2022-08-14 18:39:20,839 1 INFO odooAndres odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2022-08-14 18:39:20,839 1 INFO odooAndres odoo.models: Storing computed values of res.partner.commercial_company_name 
+2022-08-14 18:39:20,839 1 INFO odooAndres odoo.models: Storing computed values of res.currency.decimal_places 
+2022-08-14 18:39:20,841 1 INFO odooAndres odoo.models: Storing computed values of res.company.logo_web 
+2022-08-14 18:39:20,841 1 INFO odooAndres odoo.models: Storing computed values of res.company.company_registry 
+2022-08-14 18:39:20,843 1 INFO odooAndres odoo.models: Storing computed values of res.users.share 
+2022-08-14 18:39:21,789 1 INFO odooAndres odoo.modules.loading: loading base/data/res_bank.xml 
+2022-08-14 18:39:21,792 1 INFO odooAndres odoo.modules.loading: loading base/data/res.lang.csv 
+2022-08-14 18:39:21,840 1 INFO odooAndres odoo.modules.loading: loading base/data/res_lang_data.xml 
+2022-08-14 18:39:21,855 1 INFO odooAndres odoo.modules.loading: loading base/data/res_partner_data.xml 
+2022-08-14 18:39:21,901 1 INFO odooAndres odoo.modules.loading: loading base/data/res_company_data.xml 
+2022-08-14 18:39:21,909 1 INFO odooAndres odoo.modules.loading: loading base/data/res_users_data.xml 
+2022-08-14 18:39:21,973 1 INFO odooAndres odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2022-08-14 18:39:21,979 1 INFO odooAndres odoo.modules.loading: loading base/data/res_currency_data.xml 
+2022-08-14 18:39:22,277 1 INFO odooAndres odoo.modules.loading: loading base/data/res_country_data.xml 
+2022-08-14 18:39:22,602 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2022-08-14 18:39:22,609 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2022-08-14 18:39:22,614 1 INFO odooAndres odoo.modules.loading: loading base/security/base_groups.xml 
+2022-08-14 18:39:22,869 1 INFO odooAndres odoo.modules.loading: loading base/security/base_security.xml 
+2022-08-14 18:39:23,043 1 INFO odooAndres odoo.modules.loading: loading base/views/base_menus.xml 
+2022-08-14 18:39:23,094 1 INFO odooAndres odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2022-08-14 18:39:23,108 1 INFO odooAndres odoo.modules.loading: loading base/views/res_config_views.xml 
+2022-08-14 18:39:23,114 1 INFO odooAndres odoo.modules.loading: loading base/data/res.country.state.csv 
+2022-08-14 18:39:23,686 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2022-08-14 18:39:23,759 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2022-08-14 18:39:23,773 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2022-08-14 18:39:23,785 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2022-08-14 18:39:23,804 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2022-08-14 18:39:23,818 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2022-08-14 18:39:23,831 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2022-08-14 18:39:23,844 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_model_views.xml 
+2022-08-14 18:39:23,960 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2022-08-14 18:39:23,978 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2022-08-14 18:39:24,006 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2022-08-14 18:39:24,021 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2022-08-14 18:39:24,042 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2022-08-14 18:39:24,056 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2022-08-14 18:39:24,100 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_default_views.xml 
+2022-08-14 18:39:24,113 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2022-08-14 18:39:24,119 1 INFO odooAndres odoo.modules.loading: loading base/report/ir_model_report.xml 
+2022-08-14 18:39:24,122 1 INFO odooAndres odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2022-08-14 18:39:24,126 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2022-08-14 18:39:24,139 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2022-08-14 18:39:24,145 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_module_views.xml 
+2022-08-14 18:39:24,188 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2022-08-14 18:39:24,235 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_module_module.xml 
+2022-08-14 18:39:24,307 1 INFO odooAndres odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2022-08-14 18:39:24,310 1 INFO odooAndres odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2022-08-14 18:39:24,314 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2022-08-14 18:39:24,323 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2022-08-14 18:39:24,329 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2022-08-14 18:39:24,337 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2022-08-14 18:39:24,349 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2022-08-14 18:39:24,354 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2022-08-14 18:39:24,361 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2022-08-14 18:39:24,369 1 INFO odooAndres odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2022-08-14 18:39:24,377 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2022-08-14 18:39:24,380 1 INFO odooAndres odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2022-08-14 18:39:24,388 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2022-08-14 18:39:24,405 1 INFO odooAndres odoo.modules.loading: loading base/views/res_company_views.xml 
+2022-08-14 18:39:24,420 1 INFO odooAndres odoo.modules.loading: loading base/views/res_lang_views.xml 
+2022-08-14 18:39:24,434 1 INFO odooAndres odoo.modules.loading: loading base/views/res_partner_views.xml 
+2022-08-14 18:39:24,513 1 INFO odooAndres odoo.modules.loading: loading base/views/res_bank_views.xml 
+2022-08-14 18:39:24,536 1 INFO odooAndres odoo.modules.loading: loading base/views/res_country_views.xml 
+2022-08-14 18:39:24,563 1 INFO odooAndres odoo.modules.loading: loading base/views/res_currency_views.xml 
+2022-08-14 18:39:24,589 1 INFO odooAndres odoo.modules.loading: loading base/views/res_users_views.xml 
+2022-08-14 18:39:24,664 1 INFO odooAndres odoo.modules.loading: loading base/views/ir_property_views.xml 
+2022-08-14 18:39:24,677 1 INFO odooAndres odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2022-08-14 18:39:24,683 1 INFO odooAndres odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2022-08-14 18:39:24,698 1 INFO odooAndres odoo.modules.loading: loading base/views/onboarding_views.xml 
+2022-08-14 18:39:24,717 1 INFO odooAndres odoo.modules.loading: loading base/security/ir.model.access.csv 
+2022-08-14 18:39:24,829 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_MX 
+2022-08-14 18:39:24,829 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es.po 
+2022-08-14 18:39:25,396 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:25,396 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es_MX.po 
+2022-08-14 18:39:26,152 1 INFO odooAndres odoo.modules.loading: Module base loaded in 6.07s, 9551 queries 
+2022-08-14 18:39:26,152 1 INFO odooAndres odoo.modules.loading: 1 modules loaded in 6.07s, 9551 queries (+0 extra) 
+2022-08-14 18:39:26,190 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_MX 
+2022-08-14 18:39:26,190 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es.po 
+2022-08-14 18:39:26,834 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:26,834 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es_MX.po 
+2022-08-14 18:39:27,587 1 INFO odooAndres odoo.modules.loading: updating modules list 
+2022-08-14 18:39:27,587 1 INFO odooAndres odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.23.0.1 
+2022-08-14 18:39:28,092 1 INFO odooAndres odoo.modules.loading: loading 7 modules... 
+2022-08-14 18:39:28,092 1 INFO odooAndres odoo.modules.loading: Loading module web (2/7) 
+2022-08-14 18:39:28,133 1 INFO odooAndres odoo.modules.registry: module web: creating or updating database tables 
+2022-08-14 18:39:28,540 1 INFO odooAndres odoo.modules.loading: loading web/security/ir.model.access.csv 
+2022-08-14 18:39:28,548 1 INFO odooAndres odoo.modules.loading: loading web/views/webclient_templates.xml 
+2022-08-14 18:39:28,591 1 INFO odooAndres odoo.modules.loading: loading web/views/report_templates.xml 
+2022-08-14 18:39:28,655 1 INFO odooAndres odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2022-08-14 18:39:28,663 1 INFO odooAndres odoo.modules.loading: loading web/views/speedscope_template.xml 
+2022-08-14 18:39:28,667 1 INFO odooAndres odoo.modules.loading: loading web/views/lazy_assets.xml 
+2022-08-14 18:39:28,672 1 INFO odooAndres odoo.modules.loading: loading web/data/report_layout.xml 
+2022-08-14 18:39:28,696 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web: loading base translation file es for language es_MX 
+2022-08-14 18:39:28,696 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web/i18n/es.po 
+2022-08-14 18:39:28,818 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:28,818 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web/i18n/es_MX.po 
+2022-08-14 18:39:28,921 1 INFO odooAndres odoo.modules.loading: Module web loaded in 0.83s, 904 queries 
+2022-08-14 18:39:28,922 1 INFO odooAndres odoo.modules.loading: Loading module auth_totp (3/7) 
+2022-08-14 18:39:28,965 1 INFO odooAndres odoo.modules.registry: module auth_totp: creating or updating database tables 
+2022-08-14 18:39:29,017 1 INFO odooAndres odoo.modules.loading: loading auth_totp/security/security.xml 
+2022-08-14 18:39:29,036 1 INFO odooAndres odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2022-08-14 18:39:29,044 1 INFO odooAndres odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2022-08-14 18:39:29,049 1 INFO odooAndres odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2022-08-14 18:39:29,067 1 INFO odooAndres odoo.modules.loading: loading auth_totp/views/templates.xml 
+2022-08-14 18:39:29,071 1 INFO odooAndres odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2022-08-14 18:39:29,078 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp: loading base translation file es for language es_MX 
+2022-08-14 18:39:29,079 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp/i18n/es.po 
+2022-08-14 18:39:29,092 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:29,092 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp/i18n/es_MX.po 
+2022-08-14 18:39:29,127 1 INFO odooAndres odoo.modules.loading: Module auth_totp loaded in 0.21s, 210 queries 
+2022-08-14 18:39:29,127 1 INFO odooAndres odoo.modules.loading: Loading module base_import (4/7) 
+2022-08-14 18:39:29,181 1 INFO odooAndres odoo.modules.registry: module base_import: creating or updating database tables 
+2022-08-14 18:39:29,729 1 INFO odooAndres odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2022-08-14 18:39:29,754 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base_import: loading base translation file es for language es_MX 
+2022-08-14 18:39:29,754 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base_import/i18n/es.po 
+2022-08-14 18:39:29,782 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base_import: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:29,782 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base_import/i18n/es_MX.po 
+2022-08-14 18:39:29,821 1 INFO odooAndres odoo.modules.loading: Module base_import loaded in 0.69s, 938 queries 
+2022-08-14 18:39:29,821 1 INFO odooAndres odoo.modules.loading: Loading module web_editor (5/7) 
+2022-08-14 18:39:29,895 1 INFO odooAndres odoo.modules.registry: module web_editor: creating or updating database tables 
+2022-08-14 18:39:29,991 1 INFO odooAndres odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2022-08-14 18:39:29,999 1 INFO odooAndres odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2022-08-14 18:39:30,002 1 INFO odooAndres odoo.modules.loading: loading web_editor/views/editor.xml 
+2022-08-14 18:39:30,019 1 INFO odooAndres odoo.modules.loading: loading web_editor/views/snippets.xml 
+2022-08-14 18:39:30,043 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_editor: loading base translation file es for language es_MX 
+2022-08-14 18:39:30,043 1 INFO odooAndres odoo.tools.translate: loading /mnt/extra-addons/web_editor/i18n/es.po 
+2022-08-14 18:39:30,090 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_editor: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:30,091 1 INFO odooAndres odoo.tools.translate: loading /mnt/extra-addons/web_editor/i18n/es_MX.po 
+2022-08-14 18:39:30,164 1 INFO odooAndres odoo.modules.loading: Module web_editor loaded in 0.34s, 263 queries 
+2022-08-14 18:39:30,164 1 INFO odooAndres odoo.modules.loading: Loading module web_kanban_gauge (6/7) 
+2022-08-14 18:39:30,207 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading base translation file es for language es_MX 
+2022-08-14 18:39:30,207 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_kanban_gauge/i18n/es.po 
+2022-08-14 18:39:30,210 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_kanban_gauge: no translation for language es_MX 
+2022-08-14 18:39:30,227 1 INFO odooAndres odoo.modules.loading: Module web_kanban_gauge loaded in 0.06s, 26 queries 
+2022-08-14 18:39:30,227 1 INFO odooAndres odoo.modules.loading: Loading module web_tour (7/7) 
+2022-08-14 18:39:30,264 1 INFO odooAndres odoo.modules.registry: module web_tour: creating or updating database tables 
+2022-08-14 18:39:30,296 1 INFO odooAndres odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2022-08-14 18:39:30,305 1 INFO odooAndres odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2022-08-14 18:39:30,311 1 INFO odooAndres odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2022-08-14 18:39:30,329 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_tour: loading base translation file es for language es_MX 
+2022-08-14 18:39:30,329 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_tour/i18n/es.po 
+2022-08-14 18:39:30,335 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_tour: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:30,335 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_tour/i18n/es_MX.po 
+2022-08-14 18:39:30,351 1 INFO odooAndres odoo.modules.loading: Module web_tour loaded in 0.12s, 134 queries 
+2022-08-14 18:39:30,351 1 INFO odooAndres odoo.modules.loading: 7 modules loaded in 2.26s, 2475 queries (+0 extra) 
+2022-08-14 18:39:30,520 1 INFO odooAndres odoo.modules.loading: Modules loaded. 
+2022-08-14 18:39:30,531 1 INFO odooAndres odoo.modules.registry: Registry loaded in 10.457s 
+2022-08-14 18:39:30,535 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_MX 
+2022-08-14 18:39:30,535 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es.po 
+2022-08-14 18:39:31,012 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:31,012 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base/i18n/es_MX.po 
+2022-08-14 18:39:31,606 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web: loading base translation file es for language es_MX 
+2022-08-14 18:39:31,606 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web/i18n/es.po 
+2022-08-14 18:39:31,671 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:31,671 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web/i18n/es_MX.po 
+2022-08-14 18:39:31,756 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp: loading base translation file es for language es_MX 
+2022-08-14 18:39:31,756 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp/i18n/es.po 
+2022-08-14 18:39:31,766 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:31,766 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp/i18n/es_MX.po 
+2022-08-14 18:39:31,778 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base_import: loading base translation file es for language es_MX 
+2022-08-14 18:39:31,778 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base_import/i18n/es.po 
+2022-08-14 18:39:31,799 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base_import: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:31,800 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base_import/i18n/es_MX.po 
+2022-08-14 18:39:31,832 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_editor: loading base translation file es for language es_MX 
+2022-08-14 18:39:31,832 1 INFO odooAndres odoo.tools.translate: loading /mnt/extra-addons/web_editor/i18n/es.po 
+2022-08-14 18:39:31,870 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_editor: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:31,870 1 INFO odooAndres odoo.tools.translate: loading /mnt/extra-addons/web_editor/i18n/es_MX.po 
+2022-08-14 18:39:31,924 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading base translation file es for language es_MX 
+2022-08-14 18:39:31,924 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_kanban_gauge/i18n/es.po 
+2022-08-14 18:39:31,927 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_kanban_gauge: no translation for language es_MX 
+2022-08-14 18:39:31,927 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_tour: loading base translation file es for language es_MX 
+2022-08-14 18:39:31,928 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_tour/i18n/es.po 
+2022-08-14 18:39:31,934 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_tour: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:31,934 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_tour/i18n/es_MX.po 
+2022-08-14 18:39:32,006 1 INFO odooAndres odoo.addons.base.models.res_users: Login successful for db:odooAndres login:odoo@odoo.com from 172.23.0.1 
+2022-08-14 18:39:32,012 1 INFO odooAndres odoo.modules.registry: Registry changed, signaling through the database 
+2022-08-14 18:39:32,018 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:32] "POST /web/database/create HTTP/1.1" 303 - 16592 6.699 5.807
+2022-08-14 18:39:32,022 1 INFO odooAndres odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-08-14 18:39:33,829 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web HTTP/1.1" 200 - 179 0.067 1.742
+2022-08-14 18:39:33,862 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/assets/13-a6a5e2b/web.assets_common.min.css HTTP/1.1" 200 - 2 0.003 0.019
+2022-08-14 18:39:33,893 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/assets/14-eb9a4ca/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.047
+2022-08-14 18:39:33,894 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/webclient/load_menus/7d71e2fb63c51359260ad67f3ad1fb2d2dff28cb59840967ee615632f48aa417 HTTP/1.1" 200 - 1 0.000 0.045
+2022-08-14 18:39:33,894 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/assets/16-eb9a4ca/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.010 0.041
+2022-08-14 18:39:33,894 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/assets/17-9d4367d/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.001 0.048
+2022-08-14 18:39:33,896 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/assets/15-a6a5e2b/web.assets_common.min.js HTTP/1.1" 200 - 2 0.003 0.050
+2022-08-14 18:39:33,940 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/webclient/translations/a29457b63816fd832f3a01a4e0cfd43b0ecb0cd3?lang=es_MX HTTP/1.1" 200 - 7 0.013 0.026
+2022-08-14 18:39:33,953 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:33] "GET /web/webclient/qweb/a399cf25ee10f8c134ae4e838a7f7f901abae6993143144e76332a6a7ea5ba76?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.001 0.081
+2022-08-14 18:39:34,411 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /web/webclient/locale/es_MX HTTP/1.1" 200 - 1 0.000 0.002
+2022-08-14 18:39:34,494 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 17 0.022 0.013
+2022-08-14 18:39:34,504 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.015 0.017
+2022-08-14 18:39:34,510 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "POST /web/action/load HTTP/1.1" 200 - 28 0.029 0.021
+2022-08-14 18:39:34,604 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.038 0.040
+2022-08-14 18:39:34,640 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.010 0.011
+2022-08-14 18:39:34,654 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.004
+2022-08-14 18:39:34,732 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /crm/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,732 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /account/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,733 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,733 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,733 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /stock/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,733 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,740 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,742 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,743 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,745 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,746 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /project/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,747 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,748 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,750 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,751 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,752 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,760 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,761 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,762 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,762 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,763 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,765 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /sales_order_barcode/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,766 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,775 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,776 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,776 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,776 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,779 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,779 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,785 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /mail/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,786 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,788 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,789 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,790 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,792 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,793 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,793 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,798 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,798 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,800 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,800 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /board/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,801 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /survey/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,802 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /repair/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,803 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,806 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,807 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,817 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website_forum/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,817 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,818 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /note/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,818 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,819 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,820 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,827 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,828 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,831 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,831 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,832 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,834 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,835 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,838 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,843 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,844 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,845 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,845 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:34,847 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:34] "GET /payment_sips/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:42,170 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.005
+2022-08-14 18:39:42,182 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.011 0.011
+2022-08-14 18:39:42,225 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:42] "GET /base/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:45,943 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.036 0.018
+2022-08-14 18:39:45,957 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:45] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.004
+2022-08-14 18:39:48,336 1 INFO odooAndres odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Proyecto'] to user odoo@odoo.com #2 via 172.23.0.1 
+2022-08-14 18:39:48,337 1 INFO odooAndres odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-08-14 18:39:48,337 1 INFO odooAndres odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Proyecto'] to user odoo@odoo.com #2 via 172.23.0.1 
+2022-08-14 18:39:48,449 1 INFO odooAndres odoo.modules.loading: loading 1 modules... 
+2022-08-14 18:39:48,457 1 INFO odooAndres odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-08-14 18:39:48,475 1 INFO odooAndres odoo.modules.loading: updating modules list 
+2022-08-14 18:39:48,476 1 INFO odooAndres odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.23.0.1 
+2022-08-14 18:39:48,940 1 INFO odooAndres odoo.modules.loading: loading 7 modules... 
+2022-08-14 18:39:48,945 1 INFO odooAndres odoo.modules.loading: 7 modules loaded in 0.00s, 0 queries (+0 extra) 
+2022-08-14 18:39:48,950 1 INFO odooAndres odoo.modules.loading: loading 31 modules... 
+2022-08-14 18:39:48,951 1 INFO odooAndres odoo.modules.loading: Loading module uom (2/31) 
+2022-08-14 18:39:48,991 1 INFO odooAndres odoo.modules.registry: module uom: creating or updating database tables 
+2022-08-14 18:39:49,059 1 INFO odooAndres odoo.modules.loading: loading uom/data/uom_data.xml 
+2022-08-14 18:39:49,092 1 INFO odooAndres odoo.modules.loading: loading uom/security/uom_security.xml 
+2022-08-14 18:39:49,108 1 INFO odooAndres odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2022-08-14 18:39:49,118 1 INFO odooAndres odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2022-08-14 18:39:49,147 1 INFO odooAndres odoo.addons.base.models.ir_translation: module uom: loading base translation file es for language es_MX 
+2022-08-14 18:39:49,147 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/uom/i18n/es.po 
+2022-08-14 18:39:49,159 1 INFO odooAndres odoo.addons.base.models.ir_translation: module uom: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:49,159 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/uom/i18n/es_MX.po 
+2022-08-14 18:39:49,199 1 INFO odooAndres odoo.modules.loading: Module uom loaded in 0.25s, 298 queries 
+2022-08-14 18:39:49,199 1 INFO odooAndres odoo.modules.loading: Loading module base_setup (6/31) 
+2022-08-14 18:39:49,238 1 INFO odooAndres odoo.modules.registry: module base_setup: creating or updating database tables 
+2022-08-14 18:39:49,285 1 INFO odooAndres odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2022-08-14 18:39:49,288 1 INFO odooAndres odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2022-08-14 18:39:49,312 1 INFO odooAndres odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2022-08-14 18:39:49,320 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base_setup: loading base translation file es for language es_MX 
+2022-08-14 18:39:49,320 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base_setup/i18n/es.po 
+2022-08-14 18:39:49,335 1 INFO odooAndres odoo.addons.base.models.ir_translation: module base_setup: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:49,335 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/base_setup/i18n/es_MX.po 
+2022-08-14 18:39:49,369 1 INFO odooAndres odoo.modules.loading: Module base_setup loaded in 0.17s, 187 queries 
+2022-08-14 18:39:49,369 1 INFO odooAndres odoo.modules.loading: Loading module bus (7/31) 
+2022-08-14 18:39:49,404 1 INFO odooAndres odoo.modules.registry: module bus: creating or updating database tables 
+2022-08-14 18:39:49,460 1 INFO odooAndres odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2022-08-14 18:39:49,470 1 INFO odooAndres odoo.addons.base.models.ir_translation: module bus: loading base translation file es for language es_MX 
+2022-08-14 18:39:49,471 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/bus/i18n/es.po 
+2022-08-14 18:39:49,476 1 INFO odooAndres odoo.addons.base.models.ir_translation: module bus: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:49,477 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/bus/i18n/es_MX.po 
+2022-08-14 18:39:49,491 1 INFO odooAndres odoo.modules.loading: Module bus loaded in 0.12s, 121 queries 
+2022-08-14 18:39:49,491 1 INFO odooAndres odoo.modules.loading: Loading module http_routing (8/31) 
+2022-08-14 18:39:49,528 1 INFO odooAndres odoo.modules.registry: module http_routing: creating or updating database tables 
+2022-08-14 18:39:49,546 1 INFO odooAndres odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2022-08-14 18:39:49,575 1 INFO odooAndres odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2022-08-14 18:39:49,590 1 INFO odooAndres odoo.addons.base.models.ir_translation: module http_routing: loading base translation file es for language es_MX 
+2022-08-14 18:39:49,590 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/http_routing/i18n/es.po 
+2022-08-14 18:39:49,596 1 INFO odooAndres odoo.addons.base.models.ir_translation: module http_routing: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:49,596 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/http_routing/i18n/es_MX.po 
+2022-08-14 18:39:49,608 1 INFO odooAndres odoo.modules.loading: Module http_routing loaded in 0.12s, 122 queries 
+2022-08-14 18:39:49,608 1 INFO odooAndres odoo.modules.loading: Loading module resource (9/31) 
+2022-08-14 18:39:49,665 1 INFO odooAndres odoo.modules.registry: module resource: creating or updating database tables 
+2022-08-14 18:39:49,821 1 INFO odooAndres odoo.modules.loading: loading resource/data/resource_data.xml 
+2022-08-14 18:39:49,846 1 INFO odooAndres odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2022-08-14 18:39:49,857 1 INFO odooAndres odoo.modules.loading: loading resource/security/resource_security.xml 
+2022-08-14 18:39:49,871 1 INFO odooAndres odoo.modules.loading: loading resource/views/resource_views.xml 
+2022-08-14 18:39:49,955 1 INFO odooAndres odoo.addons.base.models.ir_translation: module resource: loading base translation file es for language es_MX 
+2022-08-14 18:39:49,955 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/resource/i18n/es.po 
+2022-08-14 18:39:49,976 1 INFO odooAndres odoo.addons.base.models.ir_translation: module resource: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:49,976 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/resource/i18n/es_MX.po 
+2022-08-14 18:39:50,006 1 INFO odooAndres odoo.modules.loading: Module resource loaded in 0.40s, 540 queries 
+2022-08-14 18:39:50,006 1 INFO odooAndres odoo.modules.loading: Loading module iap (13/31) 
+2022-08-14 18:39:50,045 1 INFO odooAndres odoo.modules.registry: module iap: creating or updating database tables 
+2022-08-14 18:39:50,087 1 INFO odooAndres odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2022-08-14 18:39:50,092 1 INFO odooAndres odoo.modules.loading: loading iap/security/ir_rule.xml 
+2022-08-14 18:39:50,097 1 INFO odooAndres odoo.modules.loading: loading iap/views/iap_views.xml 
+2022-08-14 18:39:50,110 1 INFO odooAndres odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2022-08-14 18:39:50,123 1 INFO odooAndres odoo.addons.base.models.ir_translation: module iap: loading base translation file es for language es_MX 
+2022-08-14 18:39:50,123 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/iap/i18n/es.po 
+2022-08-14 18:39:50,129 1 INFO odooAndres odoo.addons.base.models.ir_translation: module iap: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:50,129 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/iap/i18n/es_MX.po 
+2022-08-14 18:39:50,142 1 INFO odooAndres odoo.modules.loading: Module iap loaded in 0.14s, 174 queries 
+2022-08-14 18:39:50,142 1 INFO odooAndres odoo.modules.loading: Loading module mail (14/31) 
+2022-08-14 18:39:50,279 1 INFO odooAndres odoo.modules.registry: module mail: creating or updating database tables 
+2022-08-14 18:39:51,003 1 INFO odooAndres odoo.models: Storing computed values of res.partner.email_normalized 
+2022-08-14 18:39:51,334 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:51] "GET /web/static/img/spin.png HTTP/1.1" 200 - - - -
+2022-08-14 18:39:51,484 1 INFO odooAndres odoo.modules.loading: loading mail/data/mail_groups.xml 
+2022-08-14 18:39:51,560 1 INFO odooAndres odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2022-08-14 18:39:51,566 1 INFO odooAndres odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2022-08-14 18:39:51,577 1 INFO odooAndres odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2022-08-14 18:39:51,583 1 INFO odooAndres odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2022-08-14 18:39:51,590 1 INFO odooAndres odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2022-08-14 18:39:51,598 1 INFO odooAndres odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2022-08-14 18:39:51,602 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2022-08-14 18:39:51,611 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2022-08-14 18:39:51,620 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2022-08-14 18:39:51,629 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2022-08-14 18:39:51,649 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2022-08-14 18:39:51,662 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2022-08-14 18:39:51,670 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2022-08-14 18:39:51,679 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2022-08-14 18:39:51,688 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2022-08-14 18:39:51,700 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2022-08-14 18:39:51,719 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2022-08-14 18:39:51,727 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2022-08-14 18:39:51,781 1 INFO odooAndres odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2022-08-14 18:39:51,807 1 INFO odooAndres odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2022-08-14 18:39:51,826 1 INFO odooAndres odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2022-08-14 18:39:51,832 1 INFO odooAndres odoo.modules.loading: loading mail/data/mail_templates.xml 
+2022-08-14 18:39:51,862 1 INFO odooAndres odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2022-08-14 18:39:51,882 1 INFO odooAndres odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2022-08-14 18:39:51,897 1 INFO odooAndres odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2022-08-14 18:39:51,923 1 INFO odooAndres odoo.modules.loading: loading mail/security/mail_security.xml 
+2022-08-14 18:39:51,982 1 INFO odooAndres odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2022-08-14 18:39:52,036 1 INFO odooAndres odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2022-08-14 18:39:52,043 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2022-08-14 18:39:52,055 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2022-08-14 18:39:52,061 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2022-08-14 18:39:52,066 1 INFO odooAndres odoo.modules.loading: loading mail/views/res_users_views.xml 
+2022-08-14 18:39:52,078 1 INFO odooAndres odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2022-08-14 18:39:52,087 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2022-08-14 18:39:52,102 1 INFO odooAndres odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2022-08-14 18:39:52,110 1 INFO odooAndres odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2022-08-14 18:39:52,127 1 INFO odooAndres odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2022-08-14 18:39:52,164 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2022-08-14 18:39:52,176 1 INFO odooAndres odoo.modules.loading: loading mail/views/mail_menus.xml 
+2022-08-14 18:39:52,241 1 INFO odooAndres odoo.addons.base.models.ir_translation: module mail: loading base translation file es for language es_MX 
+2022-08-14 18:39:52,241 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/mail/i18n/es.po 
+2022-08-14 18:39:52,420 1 INFO odooAndres odoo.addons.base.models.ir_translation: module mail: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:52,420 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/mail/i18n/es_MX.po 
+2022-08-14 18:39:52,645 1 INFO odooAndres odoo.modules.loading: Module mail loaded in 2.50s, 3278 queries 
+2022-08-14 18:39:52,645 1 INFO odooAndres odoo.modules.loading: Loading module web_unsplash (15/31) 
+2022-08-14 18:39:52,712 1 INFO odooAndres odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2022-08-14 18:39:52,757 1 INFO odooAndres odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2022-08-14 18:39:52,779 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_unsplash: loading base translation file es for language es_MX 
+2022-08-14 18:39:52,779 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_unsplash/i18n/es.po 
+2022-08-14 18:39:52,786 1 INFO odooAndres odoo.addons.base.models.ir_translation: module web_unsplash: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:52,786 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/web_unsplash/i18n/es_MX.po 
+2022-08-14 18:39:52,806 1 INFO odooAndres odoo.modules.loading: Module web_unsplash loaded in 0.16s, 106 queries 
+2022-08-14 18:39:52,806 1 INFO odooAndres odoo.modules.loading: Loading module analytic (16/31) 
+2022-08-14 18:39:52,873 1 INFO odooAndres odoo.modules.registry: module analytic: creating or updating database tables 
+2022-08-14 18:39:53,083 1 INFO odooAndres odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2022-08-14 18:39:53,103 1 INFO odooAndres odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2022-08-14 18:39:53,112 1 INFO odooAndres odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2022-08-14 18:39:53,185 1 INFO odooAndres odoo.addons.base.models.ir_translation: module analytic: loading base translation file es for language es_MX 
+2022-08-14 18:39:53,185 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/analytic/i18n/es.po 
+2022-08-14 18:39:53,203 1 INFO odooAndres odoo.addons.base.models.ir_translation: module analytic: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:53,203 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/analytic/i18n/es_MX.po 
+2022-08-14 18:39:53,241 1 INFO odooAndres odoo.modules.loading: Module analytic loaded in 0.43s, 428 queries 
+2022-08-14 18:39:53,241 1 INFO odooAndres odoo.modules.loading: Loading module auth_signup (17/31) 
+2022-08-14 18:39:53,319 1 INFO odooAndres odoo.modules.registry: module auth_signup: creating or updating database tables 
+2022-08-14 18:39:53,389 1 INFO odooAndres odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2022-08-14 18:39:53,395 1 INFO odooAndres odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2022-08-14 18:39:53,402 1 INFO odooAndres odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2022-08-14 18:39:53,416 1 INFO odooAndres odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2022-08-14 18:39:53,428 1 INFO odooAndres odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2022-08-14 18:39:53,449 1 INFO odooAndres odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2022-08-14 18:39:53,466 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_signup: loading base translation file es for language es_MX 
+2022-08-14 18:39:53,466 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_signup/i18n/es.po 
+2022-08-14 18:39:53,485 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_signup: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:53,485 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_signup/i18n/es_MX.po 
+2022-08-14 18:39:53,516 1 INFO odooAndres odoo.modules.loading: Module auth_signup loaded in 0.27s, 208 queries 
+2022-08-14 18:39:53,516 1 INFO odooAndres odoo.modules.loading: Loading module auth_totp_mail (18/31) 
+2022-08-14 18:39:53,582 1 INFO odooAndres odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2022-08-14 18:39:53,603 1 INFO odooAndres odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2022-08-14 18:39:53,628 1 INFO odooAndres odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2022-08-14 18:39:53,632 1 INFO odooAndres odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2022-08-14 18:39:53,649 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp_mail: loading base translation file es for language es_MX 
+2022-08-14 18:39:53,650 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp_mail/i18n/es.po 
+2022-08-14 18:39:53,655 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp_mail: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:53,655 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp_mail/i18n/es_MX.po 
+2022-08-14 18:39:53,668 1 INFO odooAndres odoo.modules.loading: Module auth_totp_mail loaded in 0.15s, 110 queries 
+2022-08-14 18:39:53,668 1 INFO odooAndres odoo.modules.loading: Loading module fetchmail (19/31) 
+2022-08-14 18:39:53,740 1 INFO odooAndres odoo.modules.registry: module fetchmail: creating or updating database tables 
+2022-08-14 18:39:53,808 1 INFO odooAndres odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2022-08-14 18:39:53,815 1 INFO odooAndres odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2022-08-14 18:39:53,824 1 INFO odooAndres odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2022-08-14 18:39:53,844 1 INFO odooAndres odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2022-08-14 18:39:53,853 1 INFO odooAndres odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2022-08-14 18:39:53,869 1 INFO odooAndres odoo.addons.base.models.ir_translation: module fetchmail: loading base translation file es for language es_MX 
+2022-08-14 18:39:53,869 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/fetchmail/i18n/es.po 
+2022-08-14 18:39:53,881 1 INFO odooAndres odoo.addons.base.models.ir_translation: module fetchmail: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:53,881 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/fetchmail/i18n/es_MX.po 
+2022-08-14 18:39:53,905 1 INFO odooAndres odoo.modules.loading: Module fetchmail loaded in 0.24s, 208 queries 
+2022-08-14 18:39:53,905 1 INFO odooAndres odoo.modules.loading: Loading module iap_mail (20/31) 
+2022-08-14 18:39:53,976 1 INFO odooAndres odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2022-08-14 18:39:54,002 1 INFO odooAndres odoo.addons.base.models.ir_translation: module iap_mail: loading base translation file es for language es_MX 
+2022-08-14 18:39:54,002 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/iap_mail/i18n/es.po 
+2022-08-14 18:39:54,007 1 INFO odooAndres odoo.addons.base.models.ir_translation: module iap_mail: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:54,007 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/iap_mail/i18n/es_MX.po 
+2022-08-14 18:39:54,030 1 INFO odooAndres odoo.modules.loading: Module iap_mail loaded in 0.13s, 46 queries 
+2022-08-14 18:39:54,030 1 INFO odooAndres odoo.modules.loading: Loading module mail_bot (21/31) 
+2022-08-14 18:39:54,100 1 INFO odooAndres odoo.modules.registry: module mail_bot: creating or updating database tables 
+2022-08-14 18:39:54,166 1 INFO odooAndres odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2022-08-14 18:39:54,182 1 INFO odooAndres odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2022-08-14 18:39:54,188 1 INFO odooAndres odoo.addons.base.models.ir_translation: module mail_bot: loading base translation file es for language es_MX 
+2022-08-14 18:39:54,188 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/mail_bot/i18n/es.po 
+2022-08-14 18:39:54,197 1 INFO odooAndres odoo.addons.base.models.ir_translation: module mail_bot: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:54,197 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/mail_bot/i18n/es_MX.po 
+2022-08-14 18:39:54,227 1 INFO odooAndres odoo.modules.loading: Module mail_bot loaded in 0.20s, 156 queries 
+2022-08-14 18:39:54,227 1 INFO odooAndres odoo.modules.loading: Loading module phone_validation (22/31) 
+2022-08-14 18:39:54,365 1 INFO odooAndres odoo.modules.registry: module phone_validation: creating or updating database tables 
+2022-08-14 18:39:54,458 1 INFO odooAndres odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2022-08-14 18:39:54,465 1 INFO odooAndres odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2022-08-14 18:39:54,483 1 INFO odooAndres odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2022-08-14 18:39:54,489 1 INFO odooAndres odoo.addons.base.models.ir_translation: module phone_validation: loading base translation file es for language es_MX 
+2022-08-14 18:39:54,489 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/phone_validation/i18n/es.po 
+2022-08-14 18:39:54,501 1 INFO odooAndres odoo.addons.base.models.ir_translation: module phone_validation: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:54,501 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/phone_validation/i18n/es_MX.po 
+2022-08-14 18:39:54,528 1 INFO odooAndres odoo.modules.loading: Module phone_validation loaded in 0.30s, 198 queries 
+2022-08-14 18:39:54,529 1 INFO odooAndres odoo.modules.loading: Loading module rating (23/31) 
+2022-08-14 18:39:54,604 1 INFO odooAndres odoo.modules.registry: module rating: creating or updating database tables 
+2022-08-14 18:39:54,719 1 INFO odooAndres odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2022-08-14 18:39:54,745 1 INFO odooAndres odoo.modules.loading: loading rating/views/rating_template.xml 
+2022-08-14 18:39:54,752 1 INFO odooAndres odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2022-08-14 18:39:54,758 1 INFO odooAndres odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2022-08-14 18:39:54,769 1 INFO odooAndres odoo.addons.base.models.ir_translation: module rating: loading base translation file es for language es_MX 
+2022-08-14 18:39:54,770 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/rating/i18n/es.po 
+2022-08-14 18:39:54,782 1 INFO odooAndres odoo.addons.base.models.ir_translation: module rating: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:54,782 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/rating/i18n/es_MX.po 
+2022-08-14 18:39:54,805 1 INFO odooAndres odoo.modules.loading: Module rating loaded in 0.28s, 311 queries 
+2022-08-14 18:39:54,805 1 INFO odooAndres odoo.modules.loading: Loading module partner_autocomplete (24/31) 
+2022-08-14 18:39:54,879 1 INFO odooAndres odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2022-08-14 18:39:54,956 1 INFO odooAndres odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2022-08-14 18:39:54,963 1 INFO odooAndres odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2022-08-14 18:39:54,975 1 INFO odooAndres odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2022-08-14 18:39:54,980 1 INFO odooAndres odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2022-08-14 18:39:54,990 1 INFO odooAndres odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2022-08-14 18:39:55,000 1 INFO odooAndres odoo.addons.base.models.ir_translation: module partner_autocomplete: loading base translation file es for language es_MX 
+2022-08-14 18:39:55,000 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/partner_autocomplete/i18n/es.po 
+2022-08-14 18:39:55,007 1 INFO odooAndres odoo.addons.base.models.ir_translation: module partner_autocomplete: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:55,007 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/partner_autocomplete/i18n/es_MX.po 
+2022-08-14 18:39:55,032 1 INFO odooAndres odoo.modules.loading: Module partner_autocomplete loaded in 0.23s, 205 queries 
+2022-08-14 18:39:55,032 1 INFO odooAndres odoo.modules.loading: Loading module portal (25/31) 
+2022-08-14 18:39:55,113 1 INFO odooAndres odoo.modules.registry: module portal: creating or updating database tables 
+2022-08-14 18:39:55,261 1 INFO odooAndres odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2022-08-14 18:39:55,268 1 INFO odooAndres odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2022-08-14 18:39:55,272 1 INFO odooAndres odoo.modules.loading: loading portal/data/mail_templates.xml 
+2022-08-14 18:39:55,278 1 INFO odooAndres odoo.modules.loading: loading portal/views/portal_templates.xml 
+2022-08-14 18:39:55,348 1 INFO odooAndres odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2022-08-14 18:39:55,359 1 INFO odooAndres odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2022-08-14 18:39:55,367 1 INFO odooAndres odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2022-08-14 18:39:55,379 1 INFO odooAndres odoo.addons.base.models.ir_translation: module portal: loading base translation file es for language es_MX 
+2022-08-14 18:39:55,379 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/portal/i18n/es.po 
+2022-08-14 18:39:55,407 1 INFO odooAndres odoo.addons.base.models.ir_translation: module portal: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:55,407 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/portal/i18n/es_MX.po 
+2022-08-14 18:39:55,462 1 INFO odooAndres odoo.modules.loading: Module portal loaded in 0.43s, 449 queries 
+2022-08-14 18:39:55,462 1 INFO odooAndres odoo.modules.loading: Loading module sms (26/31) 
+2022-08-14 18:39:55,551 1 INFO odooAndres odoo.modules.registry: module sms: creating or updating database tables 
+2022-08-14 18:39:55,672 1 INFO odooAndres odoo.models: Storing computed values of res.partner.phone_sanitized 
+2022-08-14 18:39:55,854 1 INFO odooAndres odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2022-08-14 18:39:55,863 1 INFO odooAndres odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2022-08-14 18:39:55,874 1 INFO odooAndres odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2022-08-14 18:39:55,883 1 INFO odooAndres odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2022-08-14 18:39:55,890 1 INFO odooAndres odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2022-08-14 18:39:55,897 1 INFO odooAndres odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2022-08-14 18:39:55,904 1 INFO odooAndres odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2022-08-14 18:39:55,915 1 INFO odooAndres odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2022-08-14 18:39:55,925 1 INFO odooAndres odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2022-08-14 18:39:55,960 1 INFO odooAndres odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2022-08-14 18:39:55,977 1 INFO odooAndres odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2022-08-14 18:39:55,996 1 INFO odooAndres odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2022-08-14 18:39:56,021 1 INFO odooAndres odoo.modules.loading: loading sms/security/sms_security.xml 
+2022-08-14 18:39:56,030 1 INFO odooAndres odoo.addons.base.models.ir_translation: module sms: loading base translation file es for language es_MX 
+2022-08-14 18:39:56,031 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/sms/i18n/es.po 
+2022-08-14 18:39:56,079 1 INFO odooAndres odoo.addons.base.models.ir_translation: module sms: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:56,079 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/sms/i18n/es_MX.po 
+2022-08-14 18:39:56,137 1 INFO odooAndres odoo.modules.loading: Module sms loaded in 0.68s, 613 queries 
+2022-08-14 18:39:56,138 1 INFO odooAndres odoo.modules.loading: Loading module snailmail (27/31) 
+2022-08-14 18:39:56,247 1 INFO odooAndres odoo.modules.registry: module snailmail: creating or updating database tables 
+2022-08-14 18:39:56,436 1 INFO odooAndres odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2022-08-14 18:39:56,444 1 INFO odooAndres odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2022-08-14 18:39:56,455 1 INFO odooAndres odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2022-08-14 18:39:56,470 1 INFO odooAndres odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2022-08-14 18:39:56,474 1 INFO odooAndres odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2022-08-14 18:39:56,484 1 INFO odooAndres odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2022-08-14 18:39:56,495 1 INFO odooAndres odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2022-08-14 18:39:56,506 1 INFO odooAndres odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2022-08-14 18:39:56,527 1 INFO odooAndres odoo.addons.base.models.ir_translation: module snailmail: loading base translation file es for language es_MX 
+2022-08-14 18:39:56,527 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/snailmail/i18n/es.po 
+2022-08-14 18:39:56,549 1 INFO odooAndres odoo.addons.base.models.ir_translation: module snailmail: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:56,549 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/snailmail/i18n/es_MX.po 
+2022-08-14 18:39:56,596 1 INFO odooAndres odoo.modules.loading: Module snailmail loaded in 0.46s, 394 queries 
+2022-08-14 18:39:56,596 1 INFO odooAndres odoo.modules.loading: Loading module auth_totp_portal (28/31) 
+2022-08-14 18:39:56,690 1 INFO odooAndres odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2022-08-14 18:39:56,715 1 INFO odooAndres odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2022-08-14 18:39:56,748 1 INFO odooAndres odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2022-08-14 18:39:56,758 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp_portal: loading base translation file es for language es_MX 
+2022-08-14 18:39:56,758 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp_portal/i18n/es.po 
+2022-08-14 18:39:56,764 1 INFO odooAndres odoo.addons.base.models.ir_translation: module auth_totp_portal: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:56,765 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/auth_totp_portal/i18n/es_MX.po 
+2022-08-14 18:39:56,785 1 INFO odooAndres odoo.modules.loading: Module auth_totp_portal loaded in 0.19s, 94 queries 
+2022-08-14 18:39:56,785 1 INFO odooAndres odoo.modules.loading: Loading module digest (29/31) 
+2022-08-14 18:39:56,879 1 INFO odooAndres odoo.modules.registry: module digest: creating or updating database tables 
+2022-08-14 18:39:56,991 1 INFO odooAndres odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2022-08-14 18:39:57,000 1 INFO odooAndres odoo.modules.loading: loading digest/data/digest_data.xml 
+2022-08-14 18:39:57,017 1 INFO odooAndres odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2022-08-14 18:39:57,031 1 INFO odooAndres odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2022-08-14 18:39:57,037 1 INFO odooAndres odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2022-08-14 18:39:57,043 1 INFO odooAndres odoo.modules.loading: loading digest/views/digest_views.xml 
+2022-08-14 18:39:57,078 1 INFO odooAndres odoo.modules.loading: loading digest/views/digest_templates.xml 
+2022-08-14 18:39:57,084 1 INFO odooAndres odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2022-08-14 18:39:57,101 1 INFO odooAndres odoo.addons.base.models.ir_translation: module digest: loading base translation file es for language es_MX 
+2022-08-14 18:39:57,101 1 INFO odooAndres odoo.tools.translate: loading /mnt/extra-addons/digest/i18n/es.po 
+2022-08-14 18:39:57,118 1 INFO odooAndres odoo.addons.base.models.ir_translation: module digest: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:57,118 1 INFO odooAndres odoo.tools.translate: loading /mnt/extra-addons/digest/i18n/es_MX.po 
+2022-08-14 18:39:57,151 1 INFO odooAndres odoo.modules.loading: Module digest loaded in 0.37s, 326 queries 
+2022-08-14 18:39:57,151 1 INFO odooAndres odoo.modules.loading: Loading module portal_rating (30/31) 
+2022-08-14 18:39:57,245 1 INFO odooAndres odoo.modules.registry: module portal_rating: creating or updating database tables 
+2022-08-14 18:39:57,353 1 INFO odooAndres odoo.modules.loading: loading portal_rating/views/rating_views.xml 
+2022-08-14 18:39:57,362 1 INFO odooAndres odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2022-08-14 18:39:57,368 1 INFO odooAndres odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2022-08-14 18:39:57,378 1 INFO odooAndres odoo.addons.base.models.ir_translation: module portal_rating: loading base translation file es for language es_MX 
+2022-08-14 18:39:57,379 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/portal_rating/i18n/es.po 
+2022-08-14 18:39:57,386 1 INFO odooAndres odoo.addons.base.models.ir_translation: module portal_rating: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:57,386 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/portal_rating/i18n/es_MX.po 
+2022-08-14 18:39:57,403 1 INFO odooAndres odoo.modules.loading: Module portal_rating loaded in 0.25s, 129 queries 
+2022-08-14 18:39:57,403 1 INFO odooAndres odoo.modules.loading: Loading module project (31/31) 
+2022-08-14 18:39:57,546 1 INFO odooAndres odoo.modules.registry: module project: creating or updating database tables 
+2022-08-14 18:39:58,092 1 INFO odooAndres odoo.modules.loading: loading project/security/project_security.xml 
+2022-08-14 18:39:58,245 1 INFO odooAndres odoo.modules.loading: loading project/security/ir.model.access.csv 
+2022-08-14 18:39:58,288 1 INFO odooAndres odoo.modules.loading: loading project/security/ir.model.access.xml 
+2022-08-14 18:39:58,292 1 INFO odooAndres odoo.modules.loading: loading project/data/digest_data.xml 
+2022-08-14 18:39:58,298 1 INFO odooAndres odoo.modules.loading: loading project/report/project_report_views.xml 
+2022-08-14 18:39:58,319 1 INFO odooAndres odoo.modules.loading: loading project/report/project_task_burndown_chart_report_views.xml 
+2022-08-14 18:39:58,331 1 INFO odooAndres odoo.modules.loading: loading project/views/analytic_views.xml 
+2022-08-14 18:39:58,337 1 INFO odooAndres odoo.modules.loading: loading project/views/digest_views.xml 
+2022-08-14 18:39:58,347 1 INFO odooAndres odoo.modules.loading: loading project/views/rating_views.xml 
+2022-08-14 18:39:58,401 1 INFO odooAndres odoo.modules.loading: loading project/views/project_update_views.xml 
+2022-08-14 18:39:58,426 1 INFO odooAndres odoo.modules.loading: loading project/views/project_update_templates.xml 
+2022-08-14 18:39:58,434 1 INFO odooAndres odoo.modules.loading: loading project/views/project_project_stage_views.xml 
+2022-08-14 18:39:58,461 1 INFO odooAndres odoo.modules.loading: loading project/wizard/project_share_wizard_views.xml 
+2022-08-14 18:39:58,469 1 INFO odooAndres odoo.modules.loading: loading project/views/project_collaborator_views.xml 
+2022-08-14 18:39:58,482 1 INFO odooAndres odoo.modules.loading: loading project/views/project_views.xml 
+2022-08-14 18:39:58,703 1 INFO odooAndres odoo.modules.loading: loading project/views/res_partner_views.xml 
+2022-08-14 18:39:58,716 1 INFO odooAndres odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2022-08-14 18:39:58,745 1 INFO odooAndres odoo.modules.loading: loading project/views/mail_activity_views.xml 
+2022-08-14 18:39:58,750 1 INFO odooAndres odoo.modules.loading: loading project/views/project_sharing_views.xml 
+2022-08-14 18:39:58,785 1 INFO odooAndres odoo.modules.loading: loading project/views/project_portal_templates.xml 
+2022-08-14 18:39:58,826 1 INFO odooAndres odoo.modules.loading: loading project/views/project_task_templates.xml 
+2022-08-14 18:39:58,830 1 INFO odooAndres odoo.modules.loading: loading project/views/project_sharing_templates.xml 
+2022-08-14 18:39:58,839 1 INFO odooAndres odoo.modules.loading: loading project/data/ir_cron_data.xml 
+2022-08-14 18:39:58,849 1 INFO odooAndres odoo.modules.loading: loading project/data/mail_data.xml 
+2022-08-14 18:39:58,873 1 INFO odooAndres odoo.modules.loading: loading project/data/mail_template_data.xml 
+2022-08-14 18:39:58,884 1 INFO odooAndres odoo.modules.loading: loading project/data/project_data.xml 
+2022-08-14 18:39:58,890 1 INFO odooAndres odoo.modules.loading: loading project/wizard/project_delete_wizard_views.xml 
+2022-08-14 18:39:58,895 1 INFO odooAndres odoo.modules.loading: loading project/wizard/project_task_type_delete_views.xml 
+2022-08-14 18:39:58,909 1 INFO odooAndres odoo.addons.base.models.ir_translation: module project: loading base translation file es for language es_MX 
+2022-08-14 18:39:58,909 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/project/i18n/es.po 
+2022-08-14 18:39:59,037 1 INFO odooAndres odoo.addons.base.models.ir_translation: module project: loading translation file (es_MX) for language es_MX 
+2022-08-14 18:39:59,037 1 INFO odooAndres odoo.tools.translate: loading /usr/lib/python3/dist-packages/odoo/addons/project/i18n/es_MX.po 
+2022-08-14 18:39:59,232 1 INFO odooAndres odoo.modules.loading: Module project loaded in 1.83s, 2177 queries 
+2022-08-14 18:39:59,232 1 INFO odooAndres odoo.modules.loading: 31 modules loaded in 10.28s, 10878 queries (+0 extra) 
+2022-08-14 18:39:59,500 1 INFO odooAndres odoo.modules.loading: Modules loaded. 
+2022-08-14 18:39:59,503 1 INFO odooAndres odoo.modules.registry: Registry loaded in 11.059s 
+2022-08-14 18:39:59,503 1 INFO odooAndres odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2022-08-14 18:39:59,507 1 INFO odooAndres odoo.modules.registry: Registry changed, signaling through the database 
+2022-08-14 18:39:59,509 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:39:59] "POST /web/dataset/call_button HTTP/1.1" 200 - 12458 5.389 5.787
+2022-08-14 18:39:59,526 1 INFO odooAndres odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-08-14 18:40:02,247 1 INFO odooAndres odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-08-14 18:40:02,249 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web HTTP/1.1" 200 - 322 0.122 2.603
+2022-08-14 18:40:02,275 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/assets/25-5192e2d/web.assets_common.min.css HTTP/1.1" 200 - 4 0.004 0.009
+2022-08-14 18:40:02,308 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/assets/27-5192e2d/web.assets_common.min.js HTTP/1.1" 200 - 2 0.003 0.039
+2022-08-14 18:40:02,309 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/assets/26-7bb185c/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.002 0.042
+2022-08-14 18:40:02,309 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/assets/29-54ae8c9/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.005 0.037
+2022-08-14 18:40:02,310 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/assets/28-7bb185c/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.003 0.039
+2022-08-14 18:40:02,382 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/webclient/translations/068a6cf04ce0b11b1d04ffb82c46644ec6ce3a62?lang=es_MX HTTP/1.1" 200 - 5 0.021 0.043
+2022-08-14 18:40:02,472 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/webclient/qweb/c2dedf2a892ef0c16171a7e919af9539365f0d78e043b77e0226457b95316154?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.010 0.183
+2022-08-14 18:40:02,472 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "GET /web/webclient/load_menus/ab225f3740b30849bcd37d0c0e8d731d2e02a820a18644a6467ee0a6de145e12 HTTP/1.1" 200 - 156 0.118 0.083
+2022-08-14 18:40:02,567 1 INFO odooAndres odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2022-08-14 18:40:02,574 1 INFO odooAndres odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-08-14 18:40:02,576 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:02] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 16 0.007 0.009
+2022-08-14 18:40:03,019 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.005 0.008
+2022-08-14 18:40:03,038 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.008 0.020
+2022-08-14 18:40:03,043 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /web/action/load HTTP/1.1" 200 - 8 0.017 0.011
+2022-08-14 18:40:03,051 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /mail/init_messaging HTTP/1.1" 200 - 75 0.056 0.041
+2022-08-14 18:40:03,057 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /longpolling/poll HTTP/1.1" 200 - 17 0.017 0.025
+2022-08-14 18:40:03,079 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.011
+2022-08-14 18:40:03,082 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.009
+2022-08-14 18:40:03,090 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /mail/inbox/messages HTTP/1.1" 200 - 11 0.009 0.011
+2022-08-14 18:40:03,133 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2022-08-14 18:40:03,147 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "GET /web/image/mail.channel/1/avatar_128?unique=33137569d693426714aec399574dc58f9b9dc105b994585aab4c917ec5cdf69fd3c213c51ad5e79acdae73f9b0fc376f72a70d58f6d182cb4703159f7eca4c8f HTTP/1.1" 200 - 7 0.008 0.023
+2022-08-14 18:40:03,203 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.014 0.080
+2022-08-14 18:40:03,204 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "POST /web/dataset/call_kw/mail.channel/init_odoobot HTTP/1.1" 200 - 76 0.060 0.077
+2022-08-14 18:40:03,215 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "GET /mail/static/src/img/odoobot.png HTTP/1.1" 200 - - - -
+2022-08-14 18:40:03,999 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:03] "GET /web_tour/static/src/xml/tip.xml HTTP/1.1" 200 - - - -
+2022-08-14 18:40:04,029 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:04] "GET /web/static/fonts/google/Roboto/Roboto-Regular.ttf HTTP/1.1" 200 - - - -
+2022-08-14 18:40:10,582 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:10] "POST /web/session/account HTTP/1.1" 200 - 3 0.002 0.006
+2022-08-14 18:40:18,896 1 INFO odooAndres odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-08-14 18:40:18,897 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:18] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 13 0.003 0.016
+2022-08-14 18:40:19,225 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /web/action/load HTTP/1.1" 200 - 11 0.004 0.006
+2022-08-14 18:40:19,314 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.029 0.033
+2022-08-14 18:40:19,323 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.004 0.009
+2022-08-14 18:40:19,332 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 5 0.003 0.011
+2022-08-14 18:40:19,422 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /web/dataset/call_kw/mail.channel/init_odoobot HTTP/1.1" 200 - 2 0.001 0.014
+2022-08-14 18:40:19,423 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.005 0.012
+2022-08-14 18:40:19,424 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.012
+2022-08-14 18:40:19,431 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:19] "POST /mail/inbox/messages HTTP/1.1" 200 - 11 0.009 0.012
+2022-08-14 18:40:27,525 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:27] "POST /web/dataset/call_kw/res.users/action_get HTTP/1.1" 200 - 61 0.027 0.032
+2022-08-14 18:40:27,571 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:27] "POST /web/dataset/call_kw/res.users/load_views HTTP/1.1" 200 - 27 0.014 0.024
+2022-08-14 18:40:27,606 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:27] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 22 0.008 0.013
+2022-08-14 18:40:27,654 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:27] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - - - -
+2022-08-14 18:40:27,809 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2022-08-14 18:40:27,829 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:27] "POST /web/dataset/call_kw/ HTTP/1.1" 200 - 35 0.026 0.172
+2022-08-14 18:40:27,831 1 INFO odooAndres odoo.addons.base.models.ir_attachment: filestore gc 24 checked, 5 removed 
+2022-08-14 18:40:27,877 1 INFO odooAndres odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_MX', 'tz': False, 'uid': 2}}> 
+2022-08-14 18:40:27,877 1 INFO odooAndres odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2022-08-14 18:40:28,188 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2022-08-14 18:40:28,201 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:28] "POST /web_editor/public_render_template HTTP/1.1" 200 - 25 0.030 0.320
+2022-08-14 18:40:28,207 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-08-14 18:40:28,214 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-08-14 18:40:28,221 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:28] "GET /web/assets/30-ed49701/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.001 0.009
+2022-08-14 18:40:28,226 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:28] "GET /web/assets/31-ed49701/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.004 0.010
+2022-08-14 18:40:28,228 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2022-08-14 18:40:28,232 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2022-08-14 18:40:28,237 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2022-08-14 18:40:28,241 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2022-08-14 18:40:28,245 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-08-14 18:40:28,248 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-08-14 18:40:28,253 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-08-14 18:40:28,256 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-08-14 18:40:28,262 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-08-14 18:40:28,266 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-08-14 18:40:28,267 1 INFO ? werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:28] "GET /web_editor/static/src/xml/editor.xml HTTP/1.1" 200 - - - -
+2022-08-14 18:40:28,273 1 INFO odooAndres odoo.addons.base.models.ir_cron: Starting job `Project: Send rating`. 
+2022-08-14 18:40:28,275 1 INFO odooAndres odoo.addons.base.models.ir_cron: Job `Project: Send rating` done. 
+2022-08-14 18:40:36,864 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:36] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 27 0.011 0.013
+2022-08-14 18:40:53,222 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:40:53] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.008
+2022-08-14 18:41:09,349 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:41:09] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.012 50.021
+2022-08-14 18:41:09,471 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:41:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
+2022-08-14 18:41:38,985 1 INFO ? odoo.service.server: Initiating shutdown 
+2022-08-14 18:41:38,985 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-08-14 18:41:38,992 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 9 connections  
+2022-08-14 18:41:38,998 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 178, in loop
+    conn.poll()
+psycopg2.InterfaceError: connection already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 201, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 379, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2022-08-14 18:41:39,010 1 INFO odooAndres werkzeug: 172.23.0.1 - - [14/Aug/2022 18:41:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 29.642
